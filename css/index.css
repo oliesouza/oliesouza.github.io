@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #171810;
+    border: 10px solid #171810;
+    padding: 10px 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+a { 
+    display: inline-flex;
+    align-items: center;
+    color: #fffefe;
+    font-size: 20px;
+    font-family: "Consolas";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before {
+    content: "";
+    background-color: #ff00ff;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#button {
+    display: inline-block;
+    background-color: #ff00ff;
+    padding: 18px 20px;
+    margin-right: 0;
+}
+
+#button:hover {
+    background-color: #0cf5f5;
+    text-decoration: none;
+}
